@@ -385,7 +385,6 @@ body {
 
 .wrapper {
   overflow: hidden;
-  height: 100vh;
   position: relative;
 }
 
@@ -393,6 +392,7 @@ body {
   background-image: url("../images/homebg.png"); }
 
 .wrapper.home {
+  height: 93vh;
   background-repeat: no-repeat;
   background-size: 200%;
   background-position: 50% 50%;
@@ -615,7 +615,7 @@ body {
 
 .social__item {
   opacity: 0.5;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .social__item:first-child {
@@ -635,6 +635,7 @@ body {
 
 @media (min-width: 1200px) {
   .wrapper.home {
+    height: 100vh;
     background-size: contain;
     background-position: 0 0;
   }
@@ -663,6 +664,10 @@ body {
 
   .main__text {
     font-size: 1.5rem;
+  }
+
+  .social__item {
+    margin-left: 15px;
   }
 }
 
