@@ -5,48 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="libs/aos-master/dist/aos.css?_v=20220430220328">
-    <link rel="stylesheet" href="css/main.min.css?_v=20220430220328">
+    <link rel="stylesheet" href="libs/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
     <div class="wrapper home">
         <header class="header">
     <div class="header__wrapper">
-        <div class="burger">
-            <picture>
-                <svg width="35" height="23" viewBox="0 0 35 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+        
+            <div class="burger">
+                <svg width="24" height="24" viewBox="0 0 35 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.942059 22.659H34.1149V18.7679H0.942059V22.659ZM0.942059 13.4443H34.1149V9.55325H0.942059V13.4443ZM0.942059 4.22958H34.1149V0.338562H0.942059V4.22958Z" fill="white"/>
                 </svg>
-            </picture>
-        </div>
+            </div>
+            <div class="menu">
+                <ul class="menu__list">
+                </ul>
+                <div class="close">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        
         <div class="header__logo">
             <a href="./" class="logo">
             </a>
         </div>
-        <div class="login">
-            <a href="#">
-                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g>
-                        <path d="M6.69904 6.41486C9.5237 3.56837 13.439 1.80567 17.766 1.80567C26.3765 1.80567 33.3567 8.78588 33.3567 17.3964C33.3567 26.0069 26.3765 32.9871 17.766 32.9871C13.439 32.9871 9.5237 31.2244 6.69904 28.3779" stroke="white" stroke-width="3"/>
-                        <path d="M1.10669 18.4775L1.10669 18.7275L1.35669 18.7275L20.5041 18.7275L16.2639 22.9677C15.7749 23.4567 15.7749 24.2495 16.2639 24.7385C16.7529 25.2275 17.5457 25.2275 18.0347 24.7385L24.4125 18.3607C24.9015 17.8717 24.9015 17.0789 24.4125 16.5899L18.0347 10.2121C17.5457 9.72312 16.7529 9.72312 16.2639 10.2121C15.7749 10.7011 15.7749 11.494 16.2639 11.983L20.5041 16.2231L1.35669 16.2231L1.10669 16.2231L1.10669 16.4731L1.10669 18.4775Z" fill="white" stroke="white" stroke-width="0.5"/>
-                    </g>
-                </svg>
-            </a>
-        </div>
+        
+            <div class="header__link">
+                <a href="./login.html">
+                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_51_964)">
+                            <path d="M4.09814 4.52814C6.09203 2.51886 8.85575 1.2746 11.9101 1.2746C17.9881 1.2746 22.9153 6.2018 22.9153 12.2798C22.9153 18.3578 17.9881 23.285 11.9101 23.285C8.85575 23.285 6.09203 22.0408 4.09814 20.0315" stroke="white" stroke-width="2.11765"/>
+                            <path d="M0.151167 13.0429L0.151167 13.2194L0.327637 13.2194L13.8434 13.2194L10.8504 16.2125C10.5052 16.5577 10.5052 17.1173 10.8504 17.4625C11.1956 17.8077 11.7552 17.8077 12.1004 17.4625L16.6023 12.9605C16.9475 12.6154 16.9475 12.0557 16.6023 11.7105L12.1004 7.20857C11.7552 6.86339 11.1956 6.86339 10.8504 7.20857C10.5052 7.55375 10.5052 8.1134 10.8504 8.45857L13.8434 11.4516L0.327637 11.4516L0.151167 11.4516L0.151167 11.6281L0.151167 13.0429Z" fill="white" stroke="white" stroke-width="0.352941"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_51_964">
+                                <rect width="24" height="24.7059" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+        
         <div class="header__img">
-            <picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.png" alt="Logo"></picture>
+            <img src="images/logo.png" alt="Logo">
         </div>
     </div>
 </header>
-<div class="menu">
-    <ul class="menu__list">
-    </ul>
-    <div class="close">
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
-</div>
         <main class="main main__home">
             <div class="container">
                 <div class="main__text text" data-aos="slide-up" data-aos-anchor-placement="top-bottom">Your Eco-friendly Personal Prosperity Toolbox</div>
@@ -60,9 +67,9 @@
 </footer>
     </div>
 
-    <script src="libs/jquery/jquery.min.js?_v=20220430220328"></script>
-    <script src="js/main.min.js?_v=20220430220328"></script>
-    <script src="libs/aos-master/dist/aos.js?_v=20220430220328"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="libs/aos-master/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
