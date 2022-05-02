@@ -683,6 +683,11 @@ body {
   background: transparent;
 }
 
+.form input[type=email]:-ms-input-placeholder, .form input[type=password]:-ms-input-placeholder {
+  text-align: center;
+  color: rgb(var(--white));
+}
+
 .form input[type=email]::placeholder,
 .form input[type=password]::placeholder {
   text-align: center;
