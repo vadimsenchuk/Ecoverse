@@ -647,7 +647,7 @@ body {
   transition: opacity 0.2s ease-in;
 }
 
-.social__link img {
+.social__link object {
   width: 20px;
   height: 20px;
 }
