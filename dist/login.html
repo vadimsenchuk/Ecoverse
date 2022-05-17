@@ -23,15 +23,29 @@
     </div>
 </header>
         <main class="main main__login">
-            <form method="post" class="form">
+            <form method="post" class="form form__login active">
                 <div class="form__wrapper">
                     <div class="form__title">Sign In</div>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="password" name="password" placeholder="Password" required>
+                    <div class="form__field form__field--input">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
                     <button type="submit" class="form__btn">Enter</button>
-                    <div class="form__text">
-                        <a href="#">Forgot password?</a>
-                        <a href="#">Request an account?</a>
+                    <div class="form__field">
+                        <a href="#" class="form__link" data-change="reset">Forgot password?</a>
+                        <a href="#" class="form__link" data-change="null">Request an account?</a>
+                    </div>
+                </div>
+            </form>
+            <form method="post" class="form form__reset">
+                <div class="form__wrapper">
+                    <div class="form__title">Reset Your Password</div>
+                    <div class="form__field form__field--input">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <button type="submit" class="form__btn">Enter</button>
+                    <div class="form__field">
+                        <a href="#" class="form__link" data-change="login">Sign In</a>
                     </div>
                 </div>
             </form>
